@@ -34,4 +34,9 @@
     </plugins>
   </build>
 </project>
-<defaultGoal>compile</defaultGoal>
+<!--    跳过测试打爆-->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <log4j.leve>debug</log4j.leve>
+    <log4j.ale>debug</log4j.ale>
+    <skipTests>true</skipTests><!--添加为true，则跳过测试直接打包 -->
+
