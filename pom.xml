@@ -21,11 +21,6 @@
     </dependency>
   </dependencies>
   <build>
-    <plugins>
-      <plugin>
-        <groupId>apache-maven-3.3.9 </groupId>
-        <artifactId>/var/jenkins_home/apache-maven-3.3.9/bin/mvn</artifactId>
-        <version>3.3.9</version>
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
